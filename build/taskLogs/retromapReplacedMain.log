@@ -1,4 +1,4 @@
-Processing 8 files
+Processing 11 files
 Start Processing: net/thelanout/blocky/Blocky.java
 New Key: class net/minecraftforge/fml/common/Mod
 New Key: class net/minecraftforge/fml/common/Mod
@@ -216,4 +216,124 @@ Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
 Import: net.minecraft.block.state.IBlockState
 Import: java.util.List
 End  Processing: net/thelanout/blocky/item/ItemBlockyitem.java
+
+Start Processing: net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java
+New Key: class net/thelanout/blocky/ElementsBlocky
+New Key: class net/thelanout/blocky/ElementsBlocky
+FOUND CONSTR method net/thelanout/blocky/util/LootTableBasicLootTableBlocky/LootTableBasicLootTableBlocky (Lnet/thelanout/blocky/ElementsBlocky;)V net/thelanout/blocky/util/LootTableBasicLootTableBlocky
+Rename method net/minecraft/world/storage/loot/LootTableList/register (Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/util/ResourceLocation;[546,554]::register->func_186375_a
+Import: net.thelanout.blocky.ElementsBlocky
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraft.world.storage.loot.LootTableList
+Import: net.minecraft.util.ResourceLocation
+End  Processing: net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java
+
+Start Processing: net/thelanout/blocky/world/biome/BiomeMythic.java
+New Key: class net/thelanout/blocky/ElementsBlocky
+New Key: class net/thelanout/blocky/ElementsBlocky
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/thelanout/blocky/world/biome/BiomeMythic/BiomeMythic (Lnet/thelanout/blocky/ElementsBlocky;)V net/thelanout/blocky/world/biome/BiomeMythic
+New Key: class net/minecraftforge/common/BiomeManager
+New Key: class net/minecraftforge/common/BiomeManager
+FOUND CONSTR method net/thelanout/blocky/world/biome/BiomeMythic/BiomeGenCustom/BiomeGenCustom ()V net/thelanout/blocky/world/biome/BiomeMythic/BiomeGenCustom
+New Key: class net/minecraft/world/biome/Biome
+Rename method net/minecraft/world/biome/Biome/BiomeProperties/setRainfall (F)Lnet/minecraft/world/biome/Biome$BiomeProperties;[1130,1141]::setRainfall->func_185395_b
+Rename method net/minecraft/world/biome/Biome/BiomeProperties/setBaseHeight (F)Lnet/minecraft/world/biome/Biome$BiomeProperties;[1150,1163]::setBaseHeight->func_185398_c
+Rename method net/minecraft/world/biome/Biome/BiomeProperties/setHeightVariation (F)Lnet/minecraft/world/biome/Biome$BiomeProperties;[1170,1188]::setHeightVariation->func_185400_d
+Rename method net/minecraft/world/biome/Biome/BiomeProperties/setTemperature (F)Lnet/minecraft/world/biome/Biome$BiomeProperties;[1190,1204]::setTemperature->func_185410_a
+Rename field net/minecraft/world/biome/Biome/topBlock[1247,1255]::topBlock->field_76752_A
+Rename field net/minecraft/init/Blocks/GRASS[1270,1275]::GRASS->field_150349_c
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[1285,1300]::getDefaultState->func_176223_P
+Rename field net/minecraft/world/biome/Biome/fillerBlock[1306,1317]::fillerBlock->field_76753_B
+Rename field net/minecraft/init/Blocks/DIRT[1329,1333]::DIRT->field_150346_d
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[1344,1360]::getStateFromMeta->func_176203_a
+Rename field net/minecraft/world/biome/Biome/decorator[1366,1375]::decorator->field_76760_I
+Rename field net/minecraft/world/biome/BiomeDecorator/generateFalls[1380,1393]::generateFalls->field_76808_K
+Rename field net/minecraft/world/biome/Biome/decorator[1407,1416]::decorator->field_76760_I
+Rename field net/minecraft/world/biome/BiomeDecorator/treesPerChunk[1421,1434]::treesPerChunk->field_76832_z
+Rename field net/minecraft/world/biome/Biome/decorator[1444,1453]::decorator->field_76760_I
+Rename field net/minecraft/world/biome/BiomeDecorator/flowersPerChunk[1458,1473]::flowersPerChunk->field_76802_A
+Rename field net/minecraft/world/biome/Biome/decorator[1481,1490]::decorator->field_76760_I
+Rename field net/minecraft/world/biome/BiomeDecorator/grassPerChunk[1495,1508]::grassPerChunk->field_76803_B
+Rename field net/minecraft/world/biome/Biome/decorator[1518,1527]::decorator->field_76760_I
+Rename field net/minecraft/world/biome/BiomeDecorator/deadBushPerChunk[1532,1548]::deadBushPerChunk->field_76804_C
+Rename field net/minecraft/world/biome/Biome/decorator[1555,1564]::decorator->field_76760_I
+Rename field net/minecraft/world/biome/BiomeDecorator/mushroomsPerChunk[1569,1586]::mushroomsPerChunk->field_76798_D
+Rename field net/minecraft/world/biome/Biome/decorator[1592,1601]::decorator->field_76760_I
+Rename field net/minecraft/world/biome/BiomeDecorator/bigMushroomsPerChunk[1606,1626]::bigMushroomsPerChunk->field_76807_J
+Rename field net/minecraft/world/biome/Biome/decorator[1629,1638]::decorator->field_76760_I
+Rename field net/minecraft/world/biome/BiomeDecorator/reedsPerChunk[1643,1656]::reedsPerChunk->field_76799_E
+Rename field net/minecraft/world/biome/Biome/decorator[1666,1675]::decorator->field_76760_I
+Rename field net/minecraft/world/biome/BiomeDecorator/cactiPerChunk[1680,1693]::cactiPerChunk->field_76800_F
+Rename field net/minecraft/world/biome/Biome/decorator[1703,1712]::decorator->field_76760_I
+Rename field net/minecraft/world/biome/BiomeDecorator/sandPatchesPerChunk[1717,1736]::sandPatchesPerChunk->field_76805_H
+Rename field net/minecraft/world/biome/Biome/decorator[1740,1749]::decorator->field_76760_I
+Rename field net/minecraft/world/biome/BiomeDecorator/gravelPatchesPerChunk[1754,1775]::gravelPatchesPerChunk->field_76801_G
+Rename field net/minecraft/world/biome/Biome/spawnableMonsterList[1782,1802]::spawnableMonsterList->field_76761_J
+Rename field net/minecraft/world/biome/Biome/spawnableCreatureList[1814,1835]::spawnableCreatureList->field_76762_K
+Rename field net/minecraft/world/biome/Biome/spawnableWaterCreatureList[1846,1872]::spawnableWaterCreatureList->field_76755_L
+Rename field net/minecraft/world/biome/Biome/spawnableCaveCreatureList[1878,1903]::spawnableCaveCreatureList->field_82914_M
+Rename method net/minecraft/world/biome/Biome/getRandomTreeFeature (Ljava/util/Random;)Lnet/minecraft/world/gen/feature/WorldGenAbstractTree;[1952,1972]::getRandomTreeFeature->func_150567_a
+Rename field net/minecraft/world/biome/Biome/BIG_TREE_FEATURE[1992,2008]::BIG_TREE_FEATURE->field_76758_O
+Import: net.thelanout.blocky.ElementsBlocky
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.common.BiomeManager
+Import: net.minecraft.world.gen.feature.WorldGenAbstractTree
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.init.Blocks
+Import: java.util.Random
+End  Processing: net/thelanout/blocky/world/biome/BiomeMythic.java
+
+Start Processing: net/thelanout/blocky/world/structure/StructureSmallHut.java
+New Key: class net/thelanout/blocky/ElementsBlocky
+New Key: class net/thelanout/blocky/ElementsBlocky
+FOUND CONSTR method net/thelanout/blocky/world/structure/StructureSmallHut/StructureSmallHut (Lnet/thelanout/blocky/ElementsBlocky;)V net/thelanout/blocky/world/structure/StructureSmallHut
+Rename method net/minecraft/world/IBlockAccess/isAirBlock (Lnet/minecraft/util/math/BlockPos;)Z[1542,1552]::isAirBlock->func_175623_d
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1594,1607]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1636,1644]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getMaterial (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/Material;[1662,1673]::getMaterial->func_149688_o
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1682,1695]::getBlockState->func_180495_p
+Rename method net/minecraft/block/material/Material/blocksMovement ()Z[1725,1739]::blocksMovement->func_76230_c
+Rename method net/minecraft/world/IBlockAccess/isAirBlock (Lnet/minecraft/util/math/BlockPos;)Z[1806,1816]::isAirBlock->func_175623_d
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1857,1870]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1909,1917]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getMaterial (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/Material;[1925,1936]::getMaterial->func_149688_o
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1945,1958]::getBlockState->func_180495_p
+Rename method net/minecraft/block/material/Material/blocksMovement ()Z[1988,2002]::blocksMovement->func_76230_c
+Rename method net/minecraft/world/IBlockAccess/isAirBlock (Lnet/minecraft/util/math/BlockPos;)Z[2103,2113]::isAirBlock->func_175623_d
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2154,2167]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2196,2204]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getMaterial (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/Material;[2222,2233]::getMaterial->func_149688_o
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2242,2255]::getBlockState->func_180495_p
+Rename method net/minecraft/block/material/Material/blocksMovement ()Z[2285,2299]::blocksMovement->func_76230_c
+Rename field net/minecraft/world/World/isRemote[2388,2396]::isRemote->field_72995_K
+Rename method net/minecraft/world/WorldServer/getStructureTemplateManager ()Lnet/minecraft/world/gen/structure/template/TemplateManager;[2464,2491]::getStructureTemplateManager->func_184163_y
+Rename method net/minecraft/world/gen/structure/template/TemplateManager/getTemplate (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/world/gen/structure/template/Template;[2480,2491]::getTemplate->func_186237_a
+Rename method net/minecraft/world/World/getMinecraftServer ()Lnet/minecraft/server/MinecraftServer;[2500,2518]::getMinecraftServer->func_73046_m
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2817,2830]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/notifyBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V[2852,2869]::notifyBlockUpdate->func_184138_a
+Rename method net/minecraft/world/gen/structure/template/Template/addBlocksToWorldChunk (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/gen/structure/template/PlacementSettings;)V[2919,2940]::addBlocksToWorldChunk->func_186260_a
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setRotation (Lnet/minecraft/util/Rotation;)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[2973,2984]::setRotation->func_186220_a
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setMirror (Lnet/minecraft/util/Mirror;)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[2997,3006]::setMirror->func_186214_a
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setChunk (Lnet/minecraft/util/math/ChunkPos;)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[3027,3035]::setChunk->func_186218_a
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setReplacedBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[3058,3074]::setReplacedBlock->func_186225_a
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setIgnoreStructureBlock (Z)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[3086,3109]::setIgnoreStructureBlock->func_186226_b
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setIgnoreEntities (Z)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[3107,3124]::setIgnoreEntities->func_186222_a
+Import: net.thelanout.blocky.ElementsBlocky
+Import: net.minecraft.world.gen.structure.template.Template
+Import: net.minecraft.world.gen.structure.template.PlacementSettings
+Import: net.minecraft.world.gen.IChunkGenerator
+Import: net.minecraft.world.chunk.IChunkProvider
+Import: net.minecraft.world.WorldServer
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.ChunkPos
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.Rotation
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.util.Mirror
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.Block
+Import: java.util.Random
+End  Processing: net/thelanout/blocky/world/structure/StructureSmallHut.java
 

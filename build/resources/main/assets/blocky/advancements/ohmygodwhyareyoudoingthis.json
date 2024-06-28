@@ -22,7 +22,7 @@
           {
             "item": "blocky:blockyitem",
             "count": {
-              "min": 64,
+              "min": 1,
               "max": 64
             }
           }

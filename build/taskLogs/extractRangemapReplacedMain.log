@@ -1,7 +1,7 @@
 Unsupposrted library path: C:\Users\ippol\MCreatorWorkspaces\blocky\build\classes\java\api
 Unsupposrted library path: C:\Users\ippol\MCreatorWorkspaces\blocky\build\resources\api
 Symbol range map extraction starting
-Processing 8 files
+Processing 11 files
 startProcessing "net/thelanout/blocky/Blocky.java" md5: 7f38efd835f15113a8ee3e56bf4be249
 endProcessing "net/thelanout/blocky/Blocky.java"
 
@@ -25,4 +25,13 @@ endProcessing "net/thelanout/blocky/creativetab/TabBlocky.java"
 
 startProcessing "net/thelanout/blocky/item/ItemBlockyitem.java" md5: b452ddba29a4c72cf7612f23bceb8d4c
 endProcessing "net/thelanout/blocky/item/ItemBlockyitem.java"
+
+startProcessing "net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java" md5: 1d0df6abd81c208da87cde439a9d80c7
+endProcessing "net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java"
+
+startProcessing "net/thelanout/blocky/world/biome/BiomeMythic.java" md5: 0439ef4ab722d3b925d3e5486cd7964c
+endProcessing "net/thelanout/blocky/world/biome/BiomeMythic.java"
+
+startProcessing "net/thelanout/blocky/world/structure/StructureSmallHut.java" md5: 501ee4a1a1c836731d946682901b1842
+endProcessing "net/thelanout/blocky/world/structure/StructureSmallHut.java"
 

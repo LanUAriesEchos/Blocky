@@ -1,7 +1,7 @@
 Unsupposrted library path: C:\Users\ippol\MCreatorWorkspaces\blocky\build\classes\java\api
 Unsupposrted library path: C:\Users\ippol\MCreatorWorkspaces\blocky\build\resources\api
 Symbol range map extraction starting
-Processing 8 files
+Processing 11 files
 startProcessing "net/thelanout/blocky/Blocky.java" md5: 7f38efd835f15113a8ee3e56bf4be249
 @|net/thelanout/blocky/Blocky.java|739|759|net.thelanout.blocky|package|net.thelanout.blocky|(file)
 Class Start: net.thelanout.blocky.Blocky
@@ -1140,4 +1140,244 @@ Class Start: net.thelanout.blocky.item.ItemBlockyitem
    Class End  : net.thelanout.blocky.item.ItemBlockyitem.ItemCustom
 Class End  : net.thelanout.blocky.item.ItemBlockyitem
 endProcessing "net/thelanout/blocky/item/ItemBlockyitem.java"
+
+startProcessing "net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java" md5: 1d0df6abd81c208da87cde439a9d80c7
+@|net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java|10|35|net.thelanout.blocky.util|package|net.thelanout.blocky.util|(file)
+Class Start: net.thelanout.blocky.util.LootTableBasicLootTableBlocky
+   @|net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java|261|290|ElementsBlocky.ModElement.Tag|class|net.thelanout.blocky.ElementsBlocky.ModElement.Tag|false
+   @|net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java|305|334|LootTableBasicLootTableBlocky|class|net.thelanout.blocky.util.LootTableBasicLootTableBlocky|false
+   @|net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java|343|368|ElementsBlocky.ModElement|class|net.thelanout.blocky.ElementsBlocky.ModElement|false
+   Method Start: LootTableBasicLootTableBlocky(Lnet/thelanout/blocky/ElementsBlocky;)V
+      @|net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java|425|433|instance|param|net.thelanout.blocky.util.LootTableBasicLootTableBlocky|LootTableBasicLootTableBlocky|(Lnet/thelanout/blocky/ElementsBlocky;)V|instance|0
+      @|net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java|380|409|LootTableBasicLootTableBlocky|method|net.thelanout.blocky.util.LootTableBasicLootTableBlocky|LootTableBasicLootTableBlocky|(Lnet/thelanout/blocky/ElementsBlocky;)V
+      @|net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java|410|424|ElementsBlocky|class|net.thelanout.blocky.ElementsBlocky|false
+      @|net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java|446|454|instance|param|net.thelanout.blocky.util.LootTableBasicLootTableBlocky|LootTableBasicLootTableBlocky|(Lnet/thelanout/blocky/ElementsBlocky;)V|instance|0
+   Method End: LootTableBasicLootTableBlocky(Lnet/thelanout/blocky/ElementsBlocky;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java|520|525|event|param|net.thelanout.blocky.util.LootTableBasicLootTableBlocky|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java|469|477|Override|class|java.lang.Override|false
+      @|net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java|492|496|init|method|net.thelanout.blocky.ElementsBlocky.ModElement|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java|497|519|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java|532|545|LootTableList|class|net.minecraft.world.storage.loot.LootTableList|false
+      @|net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java|546|554|register|method|net.minecraft.world.storage.loot.LootTableList|register|(Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/util/ResourceLocation;
+      @|net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java|559|575|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : net.thelanout.blocky.util.LootTableBasicLootTableBlocky
+endProcessing "net/thelanout/blocky/util/LootTableBasicLootTableBlocky.java"
+
+startProcessing "net/thelanout/blocky/world/biome/BiomeMythic.java" md5: 0439ef4ab722d3b925d3e5486cd7964c
+@|net/thelanout/blocky/world/biome/BiomeMythic.java|10|42|net.thelanout.blocky.world.biome|package|net.thelanout.blocky.world.biome|(file)
+Class Start: net.thelanout.blocky.world.biome.BiomeMythic
+   @|net/thelanout/blocky/world/biome/BiomeMythic.java|442|471|ElementsBlocky.ModElement.Tag|class|net.thelanout.blocky.ElementsBlocky.ModElement.Tag|false
+   @|net/thelanout/blocky/world/biome/BiomeMythic.java|486|497|BiomeMythic|class|net.thelanout.blocky.world.biome.BiomeMythic|false
+   @|net/thelanout/blocky/world/biome/BiomeMythic.java|506|531|ElementsBlocky.ModElement|class|net.thelanout.blocky.ElementsBlocky.ModElement|false
+   @|net/thelanout/blocky/world/biome/BiomeMythic.java|602|616|BiomeGenCustom|class|net.thelanout.blocky.world.biome.BiomeMythic.BiomeGenCustom|false
+   @|net/thelanout/blocky/world/biome/BiomeMythic.java|537|562|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/thelanout/blocky/world/biome/BiomeMythic.java|602|616|BiomeGenCustom|class|net.thelanout.blocky.world.biome.BiomeMythic.BiomeGenCustom|false
+   @|net/thelanout/blocky/world/biome/BiomeMythic.java|617|622|biome|field|net.thelanout.blocky.world.biome.BiomeMythic|biome|
+   Method Start: BiomeMythic(Lnet/thelanout/blocky/ElementsBlocky;)V
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|667|675|instance|param|net.thelanout.blocky.world.biome.BiomeMythic|BiomeMythic|(Lnet/thelanout/blocky/ElementsBlocky;)V|instance|0
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|640|651|BiomeMythic|method|net.thelanout.blocky.world.biome.BiomeMythic|BiomeMythic|(Lnet/thelanout/blocky/ElementsBlocky;)V
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|652|666|ElementsBlocky|class|net.thelanout.blocky.ElementsBlocky|false
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|688|696|instance|param|net.thelanout.blocky.world.biome.BiomeMythic|BiomeMythic|(Lnet/thelanout/blocky/ElementsBlocky;)V|instance|0
+   Method End: BiomeMythic(Lnet/thelanout/blocky/ElementsBlocky;)V
+   Method Start: initElements()V
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|711|719|Override|class|java.lang.Override|false
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|734|746|initElements|method|net.thelanout.blocky.ElementsBlocky.ModElement|initElements|()V
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|754|762|elements|field|net.thelanout.blocky.ElementsBlocky.ModElement|elements
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|763|769|biomes|field|net.thelanout.blocky.ElementsBlocky|biomes
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|770|773|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|784|798|BiomeGenCustom|class|net.thelanout.blocky.world.biome.BiomeMythic.BiomeGenCustom|false
+   Method End: initElements()V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|863|868|event|param|net.thelanout.blocky.world.biome.BiomeMythic|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|812|820|Override|class|java.lang.Override|false
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|835|839|init|method|net.thelanout.blocky.ElementsBlocky.ModElement|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|840|862|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|875|887|BiomeManager|class|net.minecraftforge.common.BiomeManager|false
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|888|901|addSpawnBiome|method|net.minecraftforge.common.BiomeManager|addSpawnBiome|(Lnet/minecraft/world/biome/Biome;)V
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|902|907|biome|field|net.thelanout.blocky.world.biome.BiomeMythic|biome
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|913|925|BiomeManager|class|net.minecraftforge.common.BiomeManager|false
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|926|934|addBiome|method|net.minecraftforge.common.BiomeManager|addBiome|(Lnet/minecraftforge/common/BiomeManager$BiomeType;Lnet/minecraftforge/common/BiomeManager$BiomeEntry;)V
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|935|957|BiomeManager.BiomeType|class|net.minecraftforge.common.BiomeManager.BiomeType|false
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|958|962|WARM|field|net.minecraftforge.common.BiomeManager.BiomeType|WARM
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|968|991|BiomeManager.BiomeEntry|class|net.minecraftforge.common.BiomeManager.BiomeEntry|false
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|992|997|biome|field|net.thelanout.blocky.world.biome.BiomeMythic|biome
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Class Start: net.thelanout.blocky.world.biome.BiomeMythic.BiomeGenCustom
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|1024|1038|BiomeGenCustom|class|net.thelanout.blocky.world.biome.BiomeMythic.BiomeGenCustom|false
+      @|net/thelanout/blocky/world/biome/BiomeMythic.java|1047|1052|Biome|class|net.minecraft.world.biome.Biome|false
+      Method Start: BiomeGenCustom()V
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1065|1079|BiomeGenCustom|method|net.thelanout.blocky.world.biome.BiomeMythic.BiomeGenCustom|BiomeGenCustom|()V
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1098|1119|Biome.BiomeProperties|class|net.minecraft.world.biome.Biome.BiomeProperties|false
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1130|1141|setRainfall|method|net.minecraft.world.biome.Biome.BiomeProperties|setRainfall|(F)Lnet/minecraft/world/biome/Biome$BiomeProperties;
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1148|1161|setBaseHeight|method|net.minecraft.world.biome.Biome.BiomeProperties|setBaseHeight|(F)Lnet/minecraft/world/biome/Biome$BiomeProperties;
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1168|1186|setHeightVariation|method|net.minecraft.world.biome.Biome.BiomeProperties|setHeightVariation|(F)Lnet/minecraft/world/biome/Biome$BiomeProperties;
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1193|1207|setTemperature|method|net.minecraft.world.biome.Biome.BiomeProperties|setTemperature|(F)Lnet/minecraft/world/biome/Biome$BiomeProperties;
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1220|1235|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1251|1259|topBlock|field|net.minecraft.world.biome.Biome|topBlock
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1262|1268|Blocks|class|net.minecraft.init.Blocks|false
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1269|1274|GRASS|field|net.minecraft.init.Blocks|GRASS
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1275|1290|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1298|1309|fillerBlock|field|net.minecraft.world.biome.Biome|fillerBlock
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1312|1318|Blocks|class|net.minecraft.init.Blocks|false
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1319|1323|DIRT|field|net.minecraft.init.Blocks|DIRT
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1324|1340|getStateFromMeta|method|net.minecraft.block.Block|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1349|1358|decorator|field|net.minecraft.world.biome.Biome|decorator
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1359|1372|generateFalls|field|net.minecraft.world.biome.BiomeDecorator|generateFalls
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1386|1395|decorator|field|net.minecraft.world.biome.Biome|decorator
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1396|1409|treesPerChunk|field|net.minecraft.world.biome.BiomeDecorator|treesPerChunk
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1419|1428|decorator|field|net.minecraft.world.biome.Biome|decorator
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1429|1444|flowersPerChunk|field|net.minecraft.world.biome.BiomeDecorator|flowersPerChunk
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1454|1463|decorator|field|net.minecraft.world.biome.Biome|decorator
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1464|1477|grassPerChunk|field|net.minecraft.world.biome.BiomeDecorator|grassPerChunk
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1487|1496|decorator|field|net.minecraft.world.biome.Biome|decorator
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1497|1513|deadBushPerChunk|field|net.minecraft.world.biome.BiomeDecorator|deadBushPerChunk
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1523|1532|decorator|field|net.minecraft.world.biome.Biome|decorator
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1533|1550|mushroomsPerChunk|field|net.minecraft.world.biome.BiomeDecorator|mushroomsPerChunk
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1560|1569|decorator|field|net.minecraft.world.biome.Biome|decorator
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1570|1590|bigMushroomsPerChunk|field|net.minecraft.world.biome.BiomeDecorator|bigMushroomsPerChunk
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1600|1609|decorator|field|net.minecraft.world.biome.Biome|decorator
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1610|1623|reedsPerChunk|field|net.minecraft.world.biome.BiomeDecorator|reedsPerChunk
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1633|1642|decorator|field|net.minecraft.world.biome.Biome|decorator
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1643|1656|cactiPerChunk|field|net.minecraft.world.biome.BiomeDecorator|cactiPerChunk
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1666|1675|decorator|field|net.minecraft.world.biome.Biome|decorator
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1676|1695|sandPatchesPerChunk|field|net.minecraft.world.biome.BiomeDecorator|sandPatchesPerChunk
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1705|1714|decorator|field|net.minecraft.world.biome.Biome|decorator
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1715|1736|gravelPatchesPerChunk|field|net.minecraft.world.biome.BiomeDecorator|gravelPatchesPerChunk
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1751|1771|spawnableMonsterList|field|net.minecraft.world.biome.Biome|spawnableMonsterList
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1772|1777|clear|method|java.util.Collection|clear|()V
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1790|1811|spawnableCreatureList|field|net.minecraft.world.biome.Biome|spawnableCreatureList
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1812|1817|clear|method|java.util.Collection|clear|()V
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1830|1856|spawnableWaterCreatureList|field|net.minecraft.world.biome.Biome|spawnableWaterCreatureList
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1857|1862|clear|method|java.util.Collection|clear|()V
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1875|1900|spawnableCaveCreatureList|field|net.minecraft.world.biome.Biome|spawnableCaveCreatureList
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1901|1906|clear|method|java.util.Collection|clear|()V
+      Method End: BiomeGenCustom()V
+      Method Start: getRandomTreeFeature(Ljava/util/Random;)Lnet/minecraft/world/gen/feature/WorldGenAbstractTree;
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1989|1993|rand|param|net.thelanout.blocky.world.biome.BiomeMythic.BiomeGenCustom|getRandomTreeFeature|(Ljava/util/Random;)Lnet/minecraft/world/gen/feature/WorldGenAbstractTree;|rand|0
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1921|1929|Override|class|java.lang.Override|false
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1940|1960|WorldGenAbstractTree|class|net.minecraft.world.gen.feature.WorldGenAbstractTree|false
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1961|1981|getRandomTreeFeature|method|net.minecraft.world.biome.Biome|getRandomTreeFeature|(Ljava/util/Random;)Lnet/minecraft/world/gen/feature/WorldGenAbstractTree;
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|1982|1988|Random|class|java.util.Random|false
+         @|net/thelanout/blocky/world/biome/BiomeMythic.java|2008|2024|BIG_TREE_FEATURE|field|net.minecraft.world.biome.Biome|BIG_TREE_FEATURE
+      Method End: getRandomTreeFeature(Ljava/util/Random;)Lnet/minecraft/world/gen/feature/WorldGenAbstractTree;
+   Class End  : net.thelanout.blocky.world.biome.BiomeMythic.BiomeGenCustom
+Class End  : net.thelanout.blocky.world.biome.BiomeMythic
+endProcessing "net/thelanout/blocky/world/biome/BiomeMythic.java"
+
+startProcessing "net/thelanout/blocky/world/structure/StructureSmallHut.java" md5: 501ee4a1a1c836731d946682901b1842
+@|net/thelanout/blocky/world/structure/StructureSmallHut.java|10|46|net.thelanout.blocky.world.structure|package|net.thelanout.blocky.world.structure|(file)
+Class Start: net.thelanout.blocky.world.structure.StructureSmallHut
+   @|net/thelanout/blocky/world/structure/StructureSmallHut.java|718|747|ElementsBlocky.ModElement.Tag|class|net.thelanout.blocky.ElementsBlocky.ModElement.Tag|false
+   @|net/thelanout/blocky/world/structure/StructureSmallHut.java|762|779|StructureSmallHut|class|net.thelanout.blocky.world.structure.StructureSmallHut|false
+   @|net/thelanout/blocky/world/structure/StructureSmallHut.java|788|813|ElementsBlocky.ModElement|class|net.thelanout.blocky.ElementsBlocky.ModElement|false
+   Method Start: StructureSmallHut(Lnet/thelanout/blocky/ElementsBlocky;)V
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|858|866|instance|param|net.thelanout.blocky.world.structure.StructureSmallHut|StructureSmallHut|(Lnet/thelanout/blocky/ElementsBlocky;)V|instance|0
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|825|842|StructureSmallHut|method|net.thelanout.blocky.world.structure.StructureSmallHut|StructureSmallHut|(Lnet/thelanout/blocky/ElementsBlocky;)V
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|843|857|ElementsBlocky|class|net.thelanout.blocky.ElementsBlocky|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|879|887|instance|param|net.thelanout.blocky.world.structure.StructureSmallHut|StructureSmallHut|(Lnet/thelanout/blocky/ElementsBlocky;)V|instance|0
+   Method End: StructureSmallHut(Lnet/thelanout/blocky/ElementsBlocky;)V
+   Method Start: generateWorld(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|946|952|random|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|958|960|i2|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|i2|1
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|966|968|k2|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|k2|2
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|976|981|world|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|987|992|dimID|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|dimID|4
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1010|1012|cg|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|cg|5
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1029|1031|cp|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|cp|6
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|902|910|Override|class|java.lang.Override|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|925|938|generateWorld|method|net.thelanout.blocky.ElementsBlocky.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|939|945|Random|class|java.util.Random|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|970|975|World|class|net.minecraft.world.World|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|994|1009|IChunkGenerator|class|net.minecraft.world.gen.IChunkGenerator|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1014|1028|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1113|1118|dimID|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|dimID|4
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1202|1208|random|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1209|1216|nextInt|method|java.util.Random|nextInt|(I)I
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1259|1265|random|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1266|1273|nextInt|method|java.util.Random|nextInt|(I)I
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1333|1335|i2|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|i2|1
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1338|1344|random|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1345|1352|nextInt|method|java.util.Random|nextInt|(I)I
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1375|1377|k2|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|k2|2
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1380|1386|random|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1387|1394|nextInt|method|java.util.Random|nextInt|(I)I
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1536|1541|world|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1542|1552|isAirBlock|method|net.minecraft.world.IBlockAccess|isAirBlock|(Lnet/minecraft/util/math/BlockPos;)Z
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1557|1565|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1585|1590|world|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1591|1604|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1609|1617|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1633|1641|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1654|1665|getMaterial|method|net.minecraft.block.Block|getMaterial|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/Material;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1666|1671|world|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1672|1685|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1690|1698|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1715|1729|blocksMovement|method|net.minecraft.block.material.Material|blocksMovement|()Z
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1792|1797|world|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1798|1808|isAirBlock|method|net.minecraft.world.IBlockAccess|isAirBlock|(Lnet/minecraft/util/math/BlockPos;)Z
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1813|1821|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1840|1845|world|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1846|1859|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1864|1872|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1898|1906|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1909|1920|getMaterial|method|net.minecraft.block.Block|getMaterial|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/Material;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1921|1926|world|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1927|1940|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1945|1953|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|1970|1984|blocksMovement|method|net.minecraft.block.material.Material|blocksMovement|()Z
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2081|2086|world|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2087|2097|isAirBlock|method|net.minecraft.world.IBlockAccess|isAirBlock|(Lnet/minecraft/util/math/BlockPos;)Z
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2102|2110|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2129|2134|world|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2135|2148|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2153|2161|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2177|2185|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2198|2209|getMaterial|method|net.minecraft.block.Block|getMaterial|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/Material;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2210|2215|world|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2216|2229|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2234|2242|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2259|2273|blocksMovement|method|net.minecraft.block.material.Material|blocksMovement|()Z
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2358|2363|world|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2364|2372|isRemote|field|net.minecraft.world.World|isRemote
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2393|2401|Template|class|net.minecraft.world.gen.structure.template.Template|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2415|2426|WorldServer|class|net.minecraft.world.WorldServer|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2428|2433|world|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2435|2462|getStructureTemplateManager|method|net.minecraft.world.WorldServer|getStructureTemplateManager|()Lnet/minecraft/world/gen/structure/template/TemplateManager;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2465|2476|getTemplate|method|net.minecraft.world.gen.structure.template.TemplateManager|getTemplate|(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/world/gen/structure/template/Template;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2477|2482|world|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2483|2501|getMinecraftServer|method|net.minecraft.world.World|getMinecraftServer|()Lnet/minecraft/server/MinecraftServer;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2516|2532|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2603|2611|Rotation|class|net.minecraft.util.Rotation|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2623|2631|Rotation|class|net.minecraft.util.Rotation|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2632|2638|values|method|net.minecraft.util.Rotation|values|()[Lnet/minecraft/util/Rotation;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2641|2647|random|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2648|2655|nextInt|method|java.util.Random|nextInt|(I)I
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2666|2672|Mirror|class|net.minecraft.util.Mirror|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2682|2688|Mirror|class|net.minecraft.util.Mirror|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2689|2695|values|method|net.minecraft.util.Mirror|values|()[Lnet/minecraft/util/Mirror;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2698|2704|random|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2705|2712|nextInt|method|java.util.Random|nextInt|(I)I
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2723|2731|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2746|2754|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2774|2785|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2800|2805|world|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2806|2819|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2835|2840|world|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2841|2858|notifyBlockUpdate|method|net.minecraft.world.World|notifyBlockUpdate|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2912|2933|addBlocksToWorldChunk|method|net.minecraft.world.gen.structure.template.Template|addBlocksToWorldChunk|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/gen/structure/template/PlacementSettings;)V
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2934|2939|world|param|net.thelanout.blocky.world.structure.StructureSmallHut|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2954|2971|PlacementSettings|class|net.minecraft.world.gen.structure.template.PlacementSettings|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2974|2985|setRotation|method|net.minecraft.world.gen.structure.template.PlacementSettings|setRotation|(Lnet/minecraft/util/Rotation;)Lnet/minecraft/world/gen/structure/template/PlacementSettings;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|2996|3005|setMirror|method|net.minecraft.world.gen.structure.template.PlacementSettings|setMirror|(Lnet/minecraft/util/Mirror;)Lnet/minecraft/world/gen/structure/template/PlacementSettings;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|3022|3030|setChunk|method|net.minecraft.world.gen.structure.template.PlacementSettings|setChunk|(Lnet/minecraft/util/math/ChunkPos;)Lnet/minecraft/world/gen/structure/template/PlacementSettings;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|3032|3040|ChunkPos|class|net.minecraft.util.math.ChunkPos|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|3048|3064|setReplacedBlock|method|net.minecraft.world.gen.structure.template.PlacementSettings|setReplacedBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/world/gen/structure/template/PlacementSettings;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|3066|3071|Block|class|net.minecraft.block.Block|false
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|3079|3102|setIgnoreStructureBlock|method|net.minecraft.world.gen.structure.template.PlacementSettings|setIgnoreStructureBlock|(Z)Lnet/minecraft/world/gen/structure/template/PlacementSettings;
+      @|net/thelanout/blocky/world/structure/StructureSmallHut.java|3110|3127|setIgnoreEntities|method|net.minecraft.world.gen.structure.template.PlacementSettings|setIgnoreEntities|(Z)Lnet/minecraft/world/gen/structure/template/PlacementSettings;
+   Method End: generateWorld(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+Class End  : net.thelanout.blocky.world.structure.StructureSmallHut
+endProcessing "net/thelanout/blocky/world/structure/StructureSmallHut.java"
 
