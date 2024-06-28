@@ -1,0 +1,219 @@
+Processing 8 files
+Start Processing: net/thelanout/blocky/Blocky.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/thelanout/blocky/ElementsBlocky
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+Import: net.minecraftforge.fml.common.network.NetworkRegistry
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fluids.FluidRegistry
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.potion.Potion
+Import: net.minecraft.item.Item
+Import: net.minecraft.block.Block
+Import: java.util.function.Supplier
+End  Processing: net/thelanout/blocky/Blocky.java
+
+Start Processing: net/thelanout/blocky/BlockyVariables.java
+FOUND CONSTR method net/thelanout/blocky/BlockyVariables/MapVariables/MapVariables ()V net/thelanout/blocky/BlockyVariables/MapVariables
+FOUND CONSTR method net/thelanout/blocky/BlockyVariables/MapVariables/MapVariables (Ljava/lang/String;)V net/thelanout/blocky/BlockyVariables/MapVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[819,830]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[899,909]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[1006,1015]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[1036,1044]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1336,1349]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[1352,1365]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1472,1485]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[1488,1495]::setData->func_75745_a
+FOUND CONSTR method net/thelanout/blocky/BlockyVariables/WorldVariables/WorldVariables ()V net/thelanout/blocky/BlockyVariables/WorldVariables
+FOUND CONSTR method net/thelanout/blocky/BlockyVariables/WorldVariables/WorldVariables (Ljava/lang/String;)V net/thelanout/blocky/BlockyVariables/WorldVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[1829,1840]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1909,1919]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[2016,2025]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[2046,2054]::isRemote->field_72995_K
+Rename field net/minecraft/world/World/provider[2246,2254]::provider->field_73011_w
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[2415,2428]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[2560,2567]::setData->func_75745_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[2926,2932]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[2941,2955]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[2964,2980]::addScheduledTask->func_152344_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[3038,3044]::player->field_147369_b
+Rename field net/minecraft/entity/Entity/world[3053,3058]::world->field_70170_p
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3094,3106]::getMinecraft->func_71410_x
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3109,3125]::addScheduledTask->func_152344_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3166,3178]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[3181,3187]::player->field_71439_g
+Rename field net/minecraft/entity/Entity/world[3195,3200]::world->field_70170_p
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[3392,3401]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/provider[3553,3561]::provider->field_73011_w
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[3630,3643]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3646,3653]::setData->func_75745_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3743,3750]::setData->func_75745_a
+FOUND CONSTR method net/thelanout/blocky/BlockyVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage ()V net/thelanout/blocky/BlockyVariables/WorldSavedDataSyncMessage
+FOUND CONSTR method net/thelanout/blocky/BlockyVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage (ILnet/minecraft/world/storage/WorldSavedData;)V net/thelanout/blocky/BlockyVariables/WorldSavedDataSyncMessage
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[4239,4249]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[4507,4518]::readFromNBT->func_76184_a
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.ByteBufUtils
+Import: net.minecraft.world.storage.WorldSavedData
+Import: net.minecraft.world.World
+Import: net.minecraft.nbt.NBTTagCompound
+Import: net.minecraft.client.Minecraft
+End  Processing: net/thelanout/blocky/BlockyVariables.java
+
+Start Processing: net/thelanout/blocky/ClientProxyBlocky.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.client.model.obj.OBJLoader
+End  Processing: net/thelanout/blocky/ClientProxyBlocky.java
+
+Start Processing: net/thelanout/blocky/ElementsBlocky.java
+FOUND CONSTR method net/thelanout/blocky/ElementsBlocky/ElementsBlocky ()V net/thelanout/blocky/ElementsBlocky
+New Key: class net/minecraftforge/fml/common/discovery/ASMDataTable
+New Key: class net/thelanout/blocky/ElementsBlocky/ModElement
+New Key: class net/thelanout/blocky/ElementsBlocky
+New Key: class net/thelanout/blocky/ElementsBlocky
+New Key: class net/thelanout/blocky/ElementsBlocky
+New Key: class net/thelanout/blocky/BlockyVariables
+New Key: class net/thelanout/blocky/BlockyVariables
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class java/util/Map
+Rename field net/minecraft/world/World/provider[3644,3652]::provider->field_73011_w
+Rename field net/minecraft/entity/Entity/world[4033,4038]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4047,4055]::isRemote->field_72995_K
+New Key: class net/thelanout/blocky/BlockyVariables
+Rename field net/minecraft/entity/Entity/world[4139,4144]::world->field_70170_p
+New Key: class net/thelanout/blocky/BlockyVariables
+Rename field net/minecraft/entity/Entity/world[4234,4239]::world->field_70170_p
+New Key: class net/thelanout/blocky/BlockyVariables
+New Key: class net/thelanout/blocky/BlockyVariables
+Rename field net/minecraft/entity/Entity/world[4732,4737]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4746,4754]::isRemote->field_72995_K
+New Key: class net/thelanout/blocky/BlockyVariables
+Rename field net/minecraft/entity/Entity/world[4842,4847]::world->field_70170_p
+New Key: class net/thelanout/blocky/BlockyVariables
+FOUND CONSTR method net/thelanout/blocky/ElementsBlocky/ModElement/ModElement (Lnet/thelanout/blocky/ElementsBlocky;I)V net/thelanout/blocky/ElementsBlocky/ModElement
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.IGuiHandler
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.discovery.ASMDataTable
+Import: net.minecraftforge.fml.common.IWorldGenerator
+Import: net.minecraftforge.fml.common.IFuelHandler
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.storage.WorldSavedData
+Import: net.minecraft.world.gen.IChunkGenerator
+Import: net.minecraft.world.chunk.IChunkProvider
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.world.World
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.potion.Potion
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayerMP
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.block.Block
+Import: java.util.function.Supplier
+Import: java.util.Random
+Import: java.util.Map
+Import: java.util.List
+Import: java.util.HashMap
+Import: java.util.Collections
+Import: java.util.ArrayList
+Import: java.lang.annotation.RetentionPolicy
+Import: java.lang.annotation.Retention
+End  Processing: net/thelanout/blocky/ElementsBlocky.java
+
+Start Processing: net/thelanout/blocky/IProxyBlocky.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/thelanout/blocky/IProxyBlocky.java
+
+Start Processing: net/thelanout/blocky/ServerProxyBlocky.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/thelanout/blocky/ServerProxyBlocky.java
+
+Start Processing: net/thelanout/blocky/creativetab/TabBlocky.java
+New Key: class net/thelanout/blocky/ElementsBlocky
+New Key: class net/thelanout/blocky/ElementsBlocky
+FOUND CONSTR method net/thelanout/blocky/creativetab/TabBlocky/TabBlocky (Lnet/thelanout/blocky/ElementsBlocky;)V net/thelanout/blocky/creativetab/TabBlocky
+Rename method net/minecraft/creativetab/CreativeTabs/getTabIconItem ()Lnet/minecraft/item/ItemStack;[646,660]::getTabIconItem->func_78016_d
+Rename method net/minecraft/creativetab/CreativeTabs/setBackgroundImageName (Ljava/lang/String;)Lnet/minecraft/creativetab/CreativeTabs;[823,845]::setBackgroundImageName->func_78025_a
+Import: net.thelanout.blocky.item.ItemBlockyitem
+Import: net.thelanout.blocky.ElementsBlocky
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.creativetab.CreativeTabs
+End  Processing: net/thelanout/blocky/creativetab/TabBlocky.java
+
+Start Processing: net/thelanout/blocky/item/ItemBlockyitem.java
+New Key: class net/thelanout/blocky/ElementsBlocky
+New Key: class net/thelanout/blocky/ElementsBlocky
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/thelanout/blocky/item/ItemBlockyitem/ItemBlockyitem (Lnet/thelanout/blocky/ElementsBlocky;)V net/thelanout/blocky/item/ItemBlockyitem
+FOUND CONSTR method net/thelanout/blocky/item/ItemBlockyitem/ItemCustom/ItemCustom ()V net/thelanout/blocky/item/ItemBlockyitem/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1373,1385]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1394,1406]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1419,1437]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1486,1500]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1549,1570]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1614,1635]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1700,1715]::getDestroySpeed->func_150893_a
+Rename method net/minecraft/item/Item/hasEffect (Lnet/minecraft/item/ItemStack;)Z[1843,1852]::hasEffect->func_77636_d
+Rename method net/minecraft/item/Item/addInformation (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V[1931,1945]::addInformation->func_77624_a
+Rename method net/minecraft/item/Item/addInformation (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V[2028,2042]::addInformation->func_77624_a
+Import: net.thelanout.blocky.creativetab.TabBlocky
+Import: net.thelanout.blocky.ElementsBlocky
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.util.ITooltipFlag
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: java.util.List
+End  Processing: net/thelanout/blocky/item/ItemBlockyitem.java
+

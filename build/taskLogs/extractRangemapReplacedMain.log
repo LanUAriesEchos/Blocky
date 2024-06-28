@@ -1,0 +1,28 @@
+Unsupposrted library path: C:\Users\ippol\MCreatorWorkspaces\blocky\build\classes\java\api
+Unsupposrted library path: C:\Users\ippol\MCreatorWorkspaces\blocky\build\resources\api
+Symbol range map extraction starting
+Processing 8 files
+startProcessing "net/thelanout/blocky/Blocky.java" md5: 7f38efd835f15113a8ee3e56bf4be249
+endProcessing "net/thelanout/blocky/Blocky.java"
+
+startProcessing "net/thelanout/blocky/BlockyVariables.java" md5: 34140aad6b3e2c578c3f221da8054f4b
+endProcessing "net/thelanout/blocky/BlockyVariables.java"
+
+startProcessing "net/thelanout/blocky/ClientProxyBlocky.java" md5: ba17b18512adf25993a0d02c9b0b3a97
+endProcessing "net/thelanout/blocky/ClientProxyBlocky.java"
+
+startProcessing "net/thelanout/blocky/ElementsBlocky.java" md5: 46f93dd7a86596c0287e11cac51f07dd
+endProcessing "net/thelanout/blocky/ElementsBlocky.java"
+
+startProcessing "net/thelanout/blocky/IProxyBlocky.java" md5: 6abc772f199710283b4e9ec3fe095154
+endProcessing "net/thelanout/blocky/IProxyBlocky.java"
+
+startProcessing "net/thelanout/blocky/ServerProxyBlocky.java" md5: 66588c0d6eb6e909f4a0f1e1c25c5147
+endProcessing "net/thelanout/blocky/ServerProxyBlocky.java"
+
+startProcessing "net/thelanout/blocky/creativetab/TabBlocky.java" md5: 21fd273a8ea148d08a1b72164947a6ba
+endProcessing "net/thelanout/blocky/creativetab/TabBlocky.java"
+
+startProcessing "net/thelanout/blocky/item/ItemBlockyitem.java" md5: b452ddba29a4c72cf7612f23bceb8d4c
+endProcessing "net/thelanout/blocky/item/ItemBlockyitem.java"
+
